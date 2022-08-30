@@ -5,10 +5,6 @@ body {
 }
 
 
-.buttons {
-	margin-top: 50px;
-}
-
 footer {
 	margin-top: 200px;
 	color: #a8bfeb;
@@ -25,9 +21,11 @@ footer {
 
 .main {
     margin-top: 25px;
-    font-size: 21px;
+    font-size: 60px;
     text-align: center;
-	word-spacing: 70px;
+	word-spacing: 30px;
+	font-weight: bold;
+	color: #a8bfeb;
 	
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -35,6 +33,11 @@ footer {
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
+}
+
+.buttons {
+	margin-top: 50px;
+	font-family: 'Amatic SC' !important;
 }
 
 @keyframes fadein {
