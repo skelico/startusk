@@ -1,9 +1,9 @@
 @font-face {
-    font-family: AmaticSC;
-    src: url('../fonts/Amatic_SC/AmaticSC-Regular.woff2') format('woff2');
-    src: url('../fonts/Amatic_SC/AmaticSC-Regular.woff') format('woff');
-    src: url('../fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
-    src: url('../fonts/Amatic_SC/AmaticSC-Regular.eot') format('embedded-opentype');
+    font-family: 'AmaticSC';
+    src: url('../fonts/Amatic_SC/AmaticSC-Regular.woff2') format('woff2'),
+		 url('../fonts/Amatic_SC/AmaticSC-Regular.woff') format('woff'),
+		 url('../fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype'),
+		 url('../fonts/Amatic_SC/AmaticSC-Regular.eot') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
