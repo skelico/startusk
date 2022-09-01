@@ -1,0 +1,17 @@
+.btn{
+    font-family: 'Amatic SC' !important;
+    font-weight: bold;
+    font-size: 50px;
+    color: #a8bfeb;
+    text-transform: uppercase;
+    background-color: #8064A2;
+    border-color: #a8bfeb;
+    border-width: 3px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #95A5E6;
+    border-color: #B097D2;
+}
+
