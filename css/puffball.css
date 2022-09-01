@@ -1,0 +1,27 @@
+@font-face {
+    font-family: AmaticSC;
+    src: url('../fonts/Amatic_SC/AmaticSC-Regular.woff2') format('woff2');
+    src: url('../fonts/Amatic_SC/AmaticSC-Regular.woff') format('woff');
+    src: url('../fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+    src: url('../fonts/Amatic_SC/AmaticSC-Regular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn{
+    font-family: AmaticSC;
+    font-weight: bold;
+    font-size: 50px;
+    color: #a8bfeb;
+    text-transform: uppercase;
+    background-color: #8064A2;
+    border-color: #a8bfeb;
+    border-width: 3px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #95A5E6;
+    border-color: #B097D2;
+}
+

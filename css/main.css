@@ -9,7 +9,7 @@ footer {
 	margin-top: 200px;
 	color: #a8bfeb;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 18px;
+    font-size: 18px;
 	line-height: 100%;
 	text-align: center;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -35,10 +35,6 @@ footer {
             animation: fadein 2s;
 }
 
-.buttons {
-	margin-top: 50px;
-	font-family: 'Amatic SC' !important;
-}
 
 @keyframes fadein {
     from { opacity: 0; }
