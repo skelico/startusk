@@ -8,21 +8,43 @@
     font-style: normal;
 }
 
+.fadein { 
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;           
+}
+
 .card {
     background-color: #3b2a64;
-    min-height: 450px;
+}
+
+.potionbox {
+    display: flex;
+}
+
+.potions-container {
+    max-width: 90%;
 }
 
 .card-body {
     background-color: #3b2a64;
     text-align: center;   
 }
+
+.potion {
+    min-width: 100px;
+}
+
 .card-img-top {
     max-width: 200px;
+    margin: auto;    
+    display: block;
 }
 
 .header-padding{
-    min-height: 150px;
+    min-height: 120px;
 }
 
 .btn{
